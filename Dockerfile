@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
-COPY addition.java .
+COPY . .
 RUN javac addition.java
 CMD ["java", "addition"]
 

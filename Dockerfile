@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-slim
 WORKDIR /app
-COPY Main.java .
+COPY addition.java .
 RUN javac Main.java
 CMD ["java", "Main"]
 
